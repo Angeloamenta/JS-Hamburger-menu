@@ -2,8 +2,8 @@
 mostrare / nascondere il menu principale
 (per vedere l’hamburger in alto a destra dovete scendere a risoluzioni tipo tablet o mobile)
 */
-let barsMenu = document.querySelector ("header-right .fas.fa-bars");
-console.log (barsMenu.className);
+let barsMenu = document.querySelector (".header-right .fas.fa-bars");
+console.log(barsMenu.className);
 
 let hamburgerMenu = document.querySelector (".hamburger-menu")
 console.log(hamburgerMenu.className);
