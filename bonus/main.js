@@ -31,3 +31,10 @@ cta.style.backgroundColor = "blue";
 
 let list = document.querySelector(".hamburger-menu>ul>li>a");
 list.innerHTML = "ciao";
+//aggiungo altri elementi con metodo differente
+let listFine = document.querySelector(".hamburger-menu>ul");
+listFine.innerHTML += 
+`
+<li><a>Prova1</a></li>
+<li><a>Prova2</a></li>
+`;
