@@ -9,12 +9,13 @@ let hamburgerMenu = document.querySelector (".hamburger-menu")
 console.log(hamburgerMenu.className);
 
 barsMenu.addEventListener("click", function(){ 
-    hamburgerMenu.style.display = "block"; 
+    
+    hamburgerMenu.className = "active hamburger-menu" ;
 }); 
 
 let closeMenu = document.querySelector (".fa-times");
 console.log (closeMenu.className);
 
 closeMenu.addEventListener("click", function(){ 
-    hamburgerMenu.style.display = "none"; 
+    hamburgerMenu.className = "hamburger-menu" ; 
 }); 
