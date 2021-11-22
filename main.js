@@ -10,12 +10,14 @@ console.log(hamburgerMenu.className);
 
 barsMenu.addEventListener("click", function(){ 
     
-    hamburgerMenu.className = "active hamburger-menu" ;
+    hamburgerMenu.className = "active hamburger-menu";
+    console.log(hamburgerMenu);
 }); 
 
 let closeMenu = document.querySelector (".fa-times");
 console.log (closeMenu.className);
 
 closeMenu.addEventListener("click", function(){ 
-    hamburgerMenu.className = "hamburger-menu" ; 
+    hamburgerMenu.className = "hamburger-menu";
+    console.log(hamburgerMenu);
 }); 
