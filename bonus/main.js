@@ -26,3 +26,8 @@ closeMenu.addEventListener("click", function(){
 
 let cta = document.querySelector (".cta");
 cta.style.backgroundColor = "blue";
+
+//aggiungo un elemento alla lista
+
+let list = document.querySelector(".hamburger-menu>ul>li>a");
+list.innerHTML = "ciao";
